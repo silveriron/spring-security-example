@@ -1,0 +1,20 @@
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test1234"
+}
+
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+"password": "test1234"
+}
+
+###
+GET http://localhost:8080/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiZXhwIjoxNzA3ODk1MDQzfQ.JntIXrURdQ3dNEBzxDtOkHL44Up7ydbn906wgVeYXhk
